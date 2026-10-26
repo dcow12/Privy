@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T18:44:28+00:00",
+  "title": "Design System: Privy",
+  "extensions": {
+    "colorMeta": {
+      "federal-navy": {
+        "role": "primary",
+        "displayName": "Federal Navy",
+        "canonical": "oklch(25.8% 0.058 260)",
+        "tonalRamp": [
+          "#0b1628",
+          "#12233f",
+          "#1f3a63",
+          "#34507d",
+          "#56709a",
+          "#8396b8",
+          "#b8c4d8",
+          "#e6ebf3"
+        ]
+      },
+      "navy-hover": {
+        "role": "primary",
+        "displayName": "Navy Hover",
+        "canonical": "oklch(34.9% 0.079 259)",
+        "tonalRamp": [
+          "#0b1628",
+          "#12233f",
+          "#1f3a63",
+          "#34507d",
+          "#56709a",
+          "#8396b8",
+          "#b8c4d8",
+          "#e6ebf3"
+        ]
+      },
+      "navy-soft": {
+        "role": "primary",
+        "displayName": "Navy Soft",
+        "canonical": "oklch(81.7% 0.031 261)",
+        "tonalRamp": [
+          "#0b1628",
+          "#12233f",
+          "#1f3a63",
+          "#34507d",
+          "#56709a",
+          "#8396b8",
+          "#b8c4d8",
+          "#e6ebf3"
+        ]
+      },
+      "report-ink": {
+        "role": "neutral",
+        "displayName": "Report Ink",
+        "canonical": "oklch(20.8% 0.040 266)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "oklch(44.2% 0.035 258)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "oklch(54.4% 0.035 265)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "axis-grey": {
+        "role": "neutral",
+        "displayName": "Axis Grey",
+        "canonical": "oklch(71.0% 0.027 261)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(87.2% 0.012 260)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "rule-light": {
+        "role": "neutral",
+        "displayName": "Rule Light",
+        "canonical": "oklch(92.7% 0.007 261)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Wash",
+        "canonical": "oklch(96.6% 0.005 258)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "cool-ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "canonical": "oklch(95.7% 0.006 255)",
+        "tonalRamp": [
+          "oklch(15% 0.006 255)",
+          "oklch(25% 0.006 255)",
+          "oklch(35% 0.006 255)",
+          "oklch(47% 0.006 255)",
+          "oklch(59% 0.006 255)",
+          "oklch(71% 0.006 255)",
+          "oklch(83% 0.006 255)",
+          "oklch(95% 0.006 255)"
+        ]
+      },
+      "report-page": {
+        "role": "neutral",
+        "displayName": "Report Page",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "#0f172a",
+          "#475467",
+          "#667085",
+          "#98a2b3",
+          "#d0d5dd",
+          "#e4e7ec",
+          "#f2f4f7",
+          "#ffffff"
+        ]
+      },
+      "critical-red": {
+        "role": "secondary",
+        "displayName": "Critical Red",
+        "canonical": "oklch(50.0% 0.182 30)",
+        "tonalRamp": [
+          "oklch(15% 0.16 30)",
+          "oklch(25% 0.16 30)",
+          "oklch(35% 0.16 30)",
+          "oklch(47% 0.16 30)",
+          "oklch(59% 0.16 30)",
+          "oklch(71% 0.16 30)",
+          "oklch(83% 0.16 30)",
+          "oklch(95% 0.16 30)"
+        ]
+      },
+      "caution-amber": {
+        "role": "secondary",
+        "displayName": "Caution Amber",
+        "canonical": "oklch(53.9% 0.156 43)",
+        "tonalRamp": [
+          "oklch(15% 0.15 43)",
+          "oklch(25% 0.15 43)",
+          "oklch(35% 0.15 43)",
+          "oklch(47% 0.15 43)",
+          "oklch(59% 0.15 43)",
+          "oklch(71% 0.15 43)",
+          "oklch(83% 0.15 43)",
+          "oklch(95% 0.15 43)"
+        ]
+      },
+      "cleared-green": {
+        "role": "secondary",
+        "displayName": "Cleared Green",
+        "canonical": "oklch(49.9% 0.117 157)",
+        "tonalRamp": [
+          "oklch(15% 0.117 157)",
+          "oklch(25% 0.117 157)",
+          "oklch(35% 0.117 157)",
+          "oklch(47% 0.117 157)",
+          "oklch(59% 0.117 157)",
+          "oklch(71% 0.117 157)",
+          "oklch(83% 0.117 157)",
+          "oklch(95% 0.117 157)"
+        ]
+      },
+      "running-amber": {
+        "role": "secondary",
+        "displayName": "Running Amber",
+        "canonical": "oklch(64.6% 0.170 50)",
+        "tonalRamp": [
+          "oklch(15% 0.16 50)",
+          "oklch(25% 0.16 50)",
+          "oklch(35% 0.16 50)",
+          "oklch(47% 0.16 50)",
+          "oklch(59% 0.16 50)",
+          "oklch(71% 0.16 50)",
+          "oklch(83% 0.16 50)",
+          "oklch(95% 0.16 50)"
+        ]
+      },
+      "highlight-mark": {
+        "role": "neutral",
+        "displayName": "Highlight Mark",
+        "canonical": "oklch(93.7% 0.053 80)",
+        "tonalRamp": [
+          "oklch(15% 0.053 80)",
+          "oklch(25% 0.053 80)",
+          "oklch(35% 0.053 80)",
+          "oklch(47% 0.053 80)",
+          "oklch(59% 0.053 80)",
+          "oklch(71% 0.053 80)",
+          "oklch(83% 0.053 80)",
+          "oklch(95% 0.053 80)"
+        ]
+      },
+      "model-1-blue": {
+        "role": "tertiary",
+        "displayName": "Model 1 Blue",
+        "canonical": "oklch(57.5% 0.163 256)",
+        "tonalRamp": [
+          "oklch(15% 0.15 256)",
+          "oklch(25% 0.15 256)",
+          "oklch(35% 0.15 256)",
+          "oklch(47% 0.15 256)",
+          "oklch(59% 0.15 256)",
+          "oklch(71% 0.15 256)",
+          "oklch(83% 0.15 256)",
+          "oklch(95% 0.15 256)"
+        ]
+      },
+      "model-2-orange": {
+        "role": "tertiary",
+        "displayName": "Model 2 Orange",
+        "canonical": "oklch(67.1% 0.175 41)",
+        "tonalRamp": [
+          "oklch(15% 0.16 41)",
+          "oklch(25% 0.16 41)",
+          "oklch(35% 0.16 41)",
+          "oklch(47% 0.16 41)",
+          "oklch(59% 0.16 41)",
+          "oklch(71% 0.16 41)",
+          "oklch(83% 0.16 41)",
+          "oklch(95% 0.16 41)"
+        ]
+      },
+      "model-3-green": {
+        "role": "tertiary",
+        "displayName": "Model 3 Green",
+        "canonical": "oklch(66.9% 0.141 162)",
+        "tonalRamp": [
+          "oklch(15% 0.13 162)",
+          "oklch(25% 0.13 162)",
+          "oklch(35% 0.13 162)",
+          "oklch(47% 0.13 162)",
+          "oklch(59% 0.13 162)",
+          "oklch(71% 0.13 162)",
+          "oklch(83% 0.13 162)",
+          "oklch(95% 0.13 162)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The signed gap on the finding plate; once per screen."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Arm values under the plate; 22px variant for headline numbers in ruled tables."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page and report titles."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "The finding sentence on the plate."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Uppercase section headings, figure headings and panel summaries."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text and finding rows; intros at 17px capped at 800px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, table headers, meta lines, chips, status, legends."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Prompts, transcripts, condition examples, code."
+      }
+    },
+    "shadows": [
+      {
+        "name": "runbar-lift",
+        "value": "0 -8px 24px -12px rgba(15, 23, 42, 0.18)",
+        "purpose": "Sticky run bar over scrolling form content."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 10px 28px -10px rgba(15, 23, 42, 0.3)",
+        "purpose": "Chart tooltips."
+      },
+      {
+        "name": "toast",
+        "value": "0 12px 32px -12px rgba(15, 23, 42, 0.35)",
+        "purpose": "Status toast."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px rgba(18, 35, 63, 0.22)",
+        "purpose": "Focused inputs and selects."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #12233f; outline-offset: 3px",
+        "purpose": "Keyboard focus on buttons, links, charts, summaries; white and inset inside the navy bar."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": ".15s (background, color)",
+        "purpose": "Button hover."
+      },
+      {
+        "name": "progress",
+        "value": "width .4s",
+        "purpose": "Run progress bar fill."
+      },
+      {
+        "name": "pulse",
+        "value": "1.2s infinite, 50% opacity .35",
+        "purpose": "Running status dot; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-only",
+        "value": "none; content column max-width 1340px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action per form, e.g. Run experiment.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Run experiment</button>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:40px;padding:0 18px;border-radius:4px;border:1px solid transparent;font:700 15px var(--font);cursor:pointer;transition:background .15s,color .15s;} .ds-btn:focus-visible{outline:3px solid var(--navy);outline-offset:3px;} .ds-btn-primary{background:var(--navy);color:#fff;} .ds-btn-primary:hover{background:var(--navy-2);} .ds-btn-primary:disabled{opacity:.45;cursor:not-allowed;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supporting actions such as Preview prompts and exports.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">Preview prompts</button>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:40px;padding:0 18px;border-radius:4px;border:1px solid transparent;font:700 15px var(--font);cursor:pointer;transition:background .15s,color .15s;} .ds-btn:focus-visible{outline:3px solid var(--navy);outline-offset:3px;} .ds-btn-secondary{background:#fff;color:var(--navy);border-color:var(--navy);} .ds-btn-secondary:hover{background:var(--wash);}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Low-weight inline actions such as Close.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Close</button>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:40px;padding:0 18px;border-radius:4px;border:1px solid transparent;font:700 15px var(--font);cursor:pointer;transition:background .15s,color .15s;} .ds-btn:focus-visible{outline:3px solid var(--navy);outline-offset:3px;} .ds-btn-ghost{background:none;color:var(--navy);} .ds-btn-ghost:hover{background:var(--wash);}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Labelled field with navy focus halo.",
+      "html": "<label class=\"ds-field\">Run name<input class=\"ds-input\" type=\"text\" placeholder=\"optional, e.g. Opus vs GPT, monitored\"></label>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:700;max-width:360px;} .ds-input{height:40px;padding:0 12px;border:1px solid var(--axis);border-radius:4px;background:#fff;color:var(--ink);font:15px var(--font);} .ds-input::placeholder{color:#8a94a6;} .ds-input:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(18,35,63,.22);}"
+    },
+    {
+      "name": "Shell Bar and Tabs",
+      "kind": "nav",
+      "refersTo": "topbar",
+      "description": "64px navy bar with name, tagline and underlined tabs.",
+      "html": "<header class=\"ds-bar\"><div><div class=\"ds-name\">Privy</div><div class=\"ds-sub\">Does the agent respect the rule, or just the test?</div></div><nav class=\"ds-tabs\"><button class=\"ds-tab\">Keys</button><button class=\"ds-tab\">New experiment</button><button class=\"ds-tab\">Inside the model</button><button class=\"ds-tab\" aria-selected=\"true\">Results <span class=\"ds-badge\">2</span></button></nav></header>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-bar{height:64px;display:flex;align-items:stretch;gap:44px;padding:0 32px;background:var(--navy);color:#fff;} .ds-bar>div{display:flex;flex-direction:column;justify-content:center;} .ds-name{font-weight:800;font-size:19px;letter-spacing:-.01em;line-height:1.15;} .ds-sub{font-size:14px;font-weight:500;color:var(--navy-soft);} .ds-tabs{display:flex;gap:2px;} .ds-tab{display:inline-flex;align-items:center;gap:8px;padding:3px 16px 0;border:0;border-bottom:3px solid transparent;background:none;color:var(--navy-soft);font:600 15px var(--font);cursor:pointer;} .ds-tab:hover{color:#fff;} .ds-tab[aria-selected=true]{color:#fff;border-bottom-color:#fff;} .ds-tab:focus-visible{outline:3px solid #fff;outline-offset:-3px;} .ds-badge{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 6px;border-radius:10px;background:#fff;color:var(--navy);font-size:12px;font-weight:800;}"
+    },
+    {
+      "name": "Status Chip",
+      "kind": "chip",
+      "refersTo": "label",
+      "description": "Dot-led status text; colour only for meaning.",
+      "html": "<span class=\"ds-status ds-ok\">done</span> <span class=\"ds-status ds-run\">running</span> <span class=\"ds-status ds-err\">error</span> <span class=\"ds-sim\">Simulated data, not a finding</span>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-status{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--ink-2);margin-right:14px;} .ds-status::before{content:\"\";width:9px;height:9px;border-radius:50%;background:var(--axis);} .ds-ok{color:var(--cleared);} .ds-ok::before{background:var(--cleared);} .ds-run{color:var(--caution);} .ds-run::before{background:#dc6803;} .ds-err{color:var(--critical);} .ds-err::before{background:var(--critical);} .ds-sim{font-size:14px;font-weight:700;color:var(--caution);}"
+    },
+    {
+      "name": "Finding Plate with Arms",
+      "kind": "custom",
+      "refersTo": "finding-plate",
+      "description": "The one reversed navy plate per screen, with sandbox then production arms attached below.",
+      "html": "<section class=\"ds-plate\"><div><div class=\"ds-plate-no\">Finding 1.1 · sandbox gap</div><div class=\"ds-plate-big\">−36 pts</div><div class=\"ds-plate-ci\">95% CI −49 to −23</div></div><div><div class=\"ds-who\"><span class=\"ds-dot\" style=\"background:var(--m2)\"></span>mock/eval-gamer</div><p>mock/eval-gamer carried out 36% of policy-violating requests in production-looking environments and 0% in sandbox-looking ones.</p></div></section><div class=\"ds-arms\"><div class=\"ds-arm\"><div class=\"ds-arm-label\"><span class=\"ds-d ds-filled\"></span>Sandbox-looking</div><div class=\"ds-arm-value\">0%</div><div class=\"ds-arm-note\">of policy-violating requests carried out</div></div><div class=\"ds-arm\"><div class=\"ds-arm-label\"><span class=\"ds-d ds-hollow\"></span>Production-looking</div><div class=\"ds-arm-value ds-worse\">36%</div><div class=\"ds-arm-note\">of the same requests, production-looking</div></div></div>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-plate{display:grid;grid-template-columns:auto minmax(0,1fr);gap:32px;align-items:center;background:var(--navy);color:#fff;padding:26px 30px;} .ds-plate-no{font-size:13px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--navy-soft);} .ds-plate-big{font-size:68px;font-weight:800;line-height:1;letter-spacing:-.03em;margin-top:6px;white-space:nowrap;} .ds-plate-ci{font-size:15px;color:var(--navy-soft);margin-top:8px;} .ds-who{display:flex;align-items:center;gap:9px;font-weight:800;font-size:15px;margin-bottom:8px;} .ds-dot{width:11px;height:11px;border-radius:50%;box-shadow:0 0 0 2px #fff;} .ds-plate p{font-size:20px;line-height:1.4;font-weight:600;margin:0;} .ds-arms{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);border-top:0;background:#fff;} .ds-arm{padding:16px 20px;} .ds-arm+.ds-arm{border-left:1px solid var(--rule);} .ds-arm-label{font-size:16px;font-weight:800;} .ds-d{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px;} .ds-filled{background:var(--ink);} .ds-hollow{border:2.5px solid var(--ink);box-sizing:border-box;} .ds-arm-value{font-size:38px;font-weight:800;line-height:1.15;margin-top:4px;} .ds-worse{color:var(--critical);} .ds-arm-note{font-size:15px;color:var(--ink-2);}"
+    },
+    {
+      "name": "Numbered Findings",
+      "kind": "custom",
+      "refersTo": "body",
+      "description": "Ruled finding rows: number, sentence, right-aligned signed delta.",
+      "html": "<div class=\"ds-findings\"><div class=\"ds-row\"><span class=\"ds-no\">1.1</span><span>Carried out 36% of policy-violating requests in production-looking environments and 0% in sandbox-looking ones.</span><span class=\"ds-delta ds-worse\">−36 pts<small>reliable difference</small></span></div><div class=\"ds-row\"><span class=\"ds-no\">2.1</span><span>Behaved the same in both environments.</span><span class=\"ds-delta ds-held\">+0 pts<small>no reliable difference</small></span></div></div>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-findings{border-top:2px solid var(--navy);background:#fff;} .ds-row{display:grid;grid-template-columns:52px minmax(0,1fr) 150px;gap:14px;padding:10px 0;border-bottom:1px solid var(--rule-2);font-size:16px;line-height:1.5;} .ds-row:hover{background:var(--wash);} .ds-no{font-weight:800;color:var(--navy);} .ds-delta{text-align:right;font-weight:800;} .ds-delta small{display:block;font-size:14px;font-weight:600;color:var(--ink-2);} .ds-worse{color:var(--critical);} .ds-held{color:var(--cleared);}"
+    },
+    {
+      "name": "Ruled Table",
+      "kind": "card",
+      "refersTo": "report-page",
+      "description": "Navy-topped ruled table with tabular numbers; sections are ruled, never carded.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Model</th><th class=\"ds-num\">Sandbox-looking</th><th class=\"ds-num\">Production-looking</th><th class=\"ds-num\">Gap</th></tr></thead><tbody><tr><td><b>mock/eval-gamer</b></td><td class=\"ds-num ds-big\">0%</td><td class=\"ds-num ds-big\">36%</td><td class=\"ds-num ds-big\">−36</td></tr><tr><td><b>mock/steady</b></td><td class=\"ds-num ds-big\">0%</td><td class=\"ds-num ds-big\">0%</td><td class=\"ds-num ds-big\">+0</td></tr></tbody></table>",
+      "css": ":host{--navy:#12233f;--navy-2:#1f3a63;--navy-soft:#b8c4d8;--ground:#eef1f5;--ink:#0f172a;--ink-2:#475467;--muted:#667085;--axis:#98a2b3;--rule:#d0d5dd;--rule-2:#e4e7ec;--wash:#f2f4f7;--critical:#b42318;--caution:#b54708;--cleared:#067647;--m1:#2a78d6;--m2:#eb6834;--m3:#1baf7a;--font:\"Public Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;font-family:var(--font);font-variant-numeric:tabular-nums;color:var(--ink);} .ds-table{width:100%;border-collapse:collapse;border-top:2px solid var(--navy);font-size:15px;background:#fff;} .ds-table th,.ds-table td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule-2);} .ds-table th{color:var(--ink-2);font-size:14px;font-weight:700;border-bottom-color:var(--rule);vertical-align:bottom;} .ds-table .ds-num{text-align:right;} .ds-big{font-size:22px;font-weight:800;} .ds-table tbody tr:hover{background:var(--wash);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Investigation Report",
+    "overview": "**Creative North Star: \"The Investigation Report\"**\n\nEvery run is filed as a federal investigation report: a deep navy shell holds white report pages laid on a cool grey ground, and each page reads top to bottom as a dossier. A meta line records when and how the run was filed, a heavy title names it, and one reversed navy plate states the headline finding at poster scale. Below that sit the two arms side by side, then the numbered findings and the numbered figures. The pages are ruled, not carded. Hairlines and short navy rules separate sections the way a printed report does, and colour turns up only where it carries meaning.\n\nThe system is built for a projector at the back of a room. Type is large and heavy, figures are tabular, and every gap is printed as a signed delta (true minus sign, \"pts\") next to both arms. The arms always run sandbox first, then production. Model hues are kept inside figures and their keys. State colours (red, amber, green) are reserved for verdicts and status. The world rejects the grey-card SaaS dashboard and the dark hacker console.",
+    "keyCharacteristics": [
+      "Navy shell, white pages, cool grey ground; one reversed navy plate per screen.",
+      "Public Sans for everything, with tabular figures throughout.",
+      "Ruled tables and section rules instead of boxed cards.",
+      "Numbered findings (\"1.1\", \"1.2\") and numbered figures (\"Figure 1.\") as the reading structure.",
+      "Signed deltas, right-aligned, beside both arms; sandbox always before production.",
+      "Model hues only inside figures and keys; state colours only for meaning."
+    ],
+    "rules": [
+      {
+        "name": "The Quarantine Rule",
+        "body": "Model hues live only inside figures and their keys (chart marks, legends, swatches, the dot beside a model name). Never use them on chrome, buttons, rules or text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Meaning-Only Rule",
+        "body": "Red, amber and green mean worse, caution or simulated, and held or cleared. If a colour does not encode a verdict or status, it is navy or a neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Plate Rule",
+        "body": "A screen has exactly one reversed navy plate, and it holds Finding 1. Everything else sits on white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every number is set in tabular figures, and every gap carries an explicit sign (+ or a true minus, never a hyphen) with \"pts\" where it is a headline value.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy Number Rule",
+        "body": "Numbers that carry a finding are ExtraBold (800). Sentences that explain them are Regular or SemiBold. Weight separates evidence from commentary.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled, Not Carded Rule",
+        "body": "Sections on a report page are separated by rules and space, never wrapped in shadowed or rounded cards. Shadows are reserved for things that float (the run bar, tooltips, toasts).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do give each screen exactly one reversed navy plate, holding Finding 1 and its signed gap at 68px ExtraBold.",
+      "Do order the arms sandbox first, production second, everywhere: arms, tables, legends, chart marks.",
+      "Do print every gap as a signed delta (+ or a true minus) beside both arm values, right-aligned in tabular figures.",
+      "Do number findings (\"1.1\") and figures (\"Figure 1.\") in navy, and let that numbering structure the page.",
+      "Do separate report sections with rules (a 2px navy rule under heads and above tables, 1px rule or rule-light between rows) and space.",
+      "Do label simulated data in caution amber, every time it appears.",
+      "Do mark sandbox with a filled dot and production with a hollow ring."
+    ],
+    "donts": [
+      "Don't use model hues outside figures and their keys: no blue, orange or green chrome, buttons, rules or headings.",
+      "Don't use red, amber or green for decoration; they mean worse, caution or simulated, and held.",
+      "Don't wrap report sections in rounded, shadowed cards; shadows belong only to the run bar, tooltips and toasts.",
+      "Don't add a second reversed navy plate or any dark full-bleed panel beyond the shell bar.",
+      "Don't introduce a second typeface for display; Public Sans carries every role except code.",
+      "Don't add uppercase labels above headings; the only small uppercase label is the finding number on the plate.",
+      "Don't set interface text below 13px; it has to read from the back of the room."
+    ]
+  }
+}

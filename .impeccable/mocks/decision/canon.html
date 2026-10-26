@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;font-family:Inter,sans-serif;background:#f9fafb;color:#111827}
+.side{position:fixed;left:0;top:0;bottom:0;width:240px;background:#fff;border-right:1px solid #e5e7eb;padding:20px}
+.side b{font-size:16px}
+.side a{display:block;padding:9px 12px;border-radius:8px;margin-top:6px;font-size:14px;color:#4b5563}
+.side a.on{background:#eff6ff;color:#2563eb;font-weight:600}
+.main{margin-left:240px;padding:28px 36px}
+h1{font-size:24px;font-weight:700}
+.sub{color:#6b7280;font-size:14px;margin-top:4px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:18px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.card .l{font-size:13px;color:#6b7280}
+.card .v{font-size:28px;font-weight:700;margin-top:6px}
+.card .d{font-size:12px;color:#2563eb;margin-top:4px}
+.charts{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-top:16px}
+.chart{height:380px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:18px}
+.chart h3{font-size:15px;font-weight:600}
+.bars{display:flex;align-items:flex-end;gap:26px;height:280px;margin-top:30px;padding:0 20px;border-bottom:1px solid #e5e7eb}
+.bars i{flex:1;background:#2563eb;border-radius:6px 6px 0 0}
+.bars i.s{background:#93c5fd}
+</style></head><body>
+<div class="side"><b>Privy</b><a>Keys</a><a>New experiment</a><a>Inside the model</a><a class="on">Results</a></div>
+<div class="main">
+  <h1>Demo (simulated): three agent types</h1>
+  <div class="sub">1,320 episodes · 6 conditions</div>
+  <div class="cards">
+    <div class="card"><div class="l">Violations · production</div><div class="v">36%</div><div class="d">mock/eval-gamer</div></div>
+    <div class="card"><div class="l">Violations · sandbox</div><div class="v">32%</div><div class="d">mock/test-aware-lax</div></div>
+    <div class="card"><div class="l">Largest gap</div><div class="v">−36 pts</div><div class="d">95% CI −49 to −23</div></div>
+    <div class="card"><div class="l">Says it's being tested</div><div class="v">31%</div><div class="d">sandbox side</div></div>
+  </div>
+  <div class="charts">
+    <div class="chart"><h3>Rule-breaking by environment</h3><div class="bars"><i class="s" style="height:4%"></i><i style="height:4%"></i><i class="s" style="height:4%"></i><i style="height:72%"></i><i class="s" style="height:64%"></i><i style="height:4%"></i></div></div>
+    <div class="chart"><h3>What we found</h3><p class="sub" style="margin-top:12px;line-height:1.6">mock/eval-gamer behaved better when the environment looked like a test.</p></div>
+  </div>
+</div>
+</body></html>

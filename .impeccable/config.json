@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "source sans 3",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-16T18:45:55.674Z",
+        "reason": "Claude decided: decision-round sketch of the unchosen Trial Report direction; not shipped UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "inter",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-16T18:45:55.688Z",
+        "reason": "Claude decided: decision-round sketch of the category-standard option, deliberately generic; not shipped UI"
+      }
+    ]
+  }
+}

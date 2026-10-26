@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+/results*/
+*.npz
+/runs/
+node_modules/
+.claude/
+colab/*.zip
+.DS_Store
+*.pyc

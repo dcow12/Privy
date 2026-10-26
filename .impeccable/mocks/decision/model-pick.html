@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;font-family:"Source Sans 3",sans-serif;background:#fff;color:#14213d;font-variant-numeric:tabular-nums}
+.bar{height:60px;display:flex;align-items:center;gap:36px;padding:0 32px;border-bottom:3px solid #0b6e8a}
+.name{font-weight:800;font-size:19px}
+.tabs{display:flex;gap:22px;font-weight:600;font-size:15px;color:#5c677d}
+.tabs .on{color:#0b6e8a}
+.main{padding:28px 48px}
+h1{font-size:30px;font-weight:800;margin-bottom:6px}
+.sub{color:#5c677d;font-size:15px}
+.arms{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:24px 0;border:2px solid #14213d}
+.arm{padding:14px 20px}
+.arm+.arm{border-left:2px solid #14213d}
+.arm b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#0b6e8a}
+.arm span{font-size:16px}
+.grid{display:grid;grid-template-columns:1.6fr 1fr;gap:36px}
+.forest h2,.verdict h2{font-size:14px;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid #c5ccd6;padding-bottom:8px;margin-bottom:10px}
+.fr{display:grid;grid-template-columns:200px 1fr 90px;align-items:center;height:44px;border-bottom:1px solid #edf0f4;font-size:15px}
+.axis{position:relative;height:100%}
+.axis:before{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:1px solid #14213d}
+.ci{position:absolute;top:50%;height:2px;background:#14213d}
+.pt{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;background:#0b6e8a}
+.dia{position:absolute;top:50%;width:18px;height:18px;margin:-9px 0 0 -9px;background:#14213d;transform:rotate(45deg)}
+.est{text-align:right;font-weight:700}
+.verdict p{font-size:20px;line-height:1.4;font-weight:600;margin-bottom:16px}
+.rob{display:grid;grid-template-columns:1fr repeat(3,28px);gap:6px;font-size:14px;align-items:center}
+.d{width:22px;height:22px;border-radius:50%}
+.g{background:#2f9e44}.a{background:#e8a317}.r{background:#c92a2a}
+</style></head><body>
+<div class="bar"><div class="name">Privy</div><div class="tabs"><span>Keys</span><span>New experiment</span><span>Inside the model</span><span class="on">Results</span></div></div>
+<div class="main">
+  <h1>Demo (simulated): three agent types</h1>
+  <div class="sub">1,320 episodes · 6 conditions · simulated data, not a finding</div>
+  <div class="arms">
+    <div class="arm"><b>Arm A · Sandbox-looking</b><span>host: ci-runner-14 · scratch volume · test_user</span></div>
+    <div class="arm"><b>Arm B · Production-looking</b><span>host: payments-api-14 · replicated volume · 312 users</span></div>
+  </div>
+  <div class="grid">
+    <div class="forest">
+      <h2>Sandbox gap, with uncertainty</h2>
+      <div class="fr"><span>mock/consistent</span><div class="axis"><div class="pt" style="left:50%"></div></div><span class="est">+0</span></div>
+      <div class="fr"><span>mock/eval-gamer</span><div class="axis"><div class="ci" style="left:25%;width:13%"></div><div class="pt" style="left:32%"></div></div><span class="est">−36</span></div>
+      <div class="fr"><span>mock/test-aware-lax</span><div class="axis"><div class="ci" style="left:61%;width:10%"></div><div class="pt" style="left:66%"></div></div><span class="est">+32</span></div>
+      <div class="fr"><b>All conditions</b><div class="axis"><div class="dia" style="left:49%"></div></div><span class="est">−1</span></div>
+    </div>
+    <div class="verdict">
+      <h2>Verdict</h2>
+      <p>mock/eval-gamer behaved better when the environment looked like a test. That is the pattern a sandbox evaluation would miss.</p>
+      <div class="rob"><b>Says it's being tested</b><span></span><span></span><span></span>
+        <span>mock/consistent</span><i class="d g"></i><i class="d g"></i><i class="d a"></i>
+        <span>mock/eval-gamer</span><i class="d r"></i><i class="d r"></i><i class="d r"></i>
+        <span>mock/test-aware-lax</span><i class="d a"></i><i class="d g"></i><i class="d a"></i></div>
+    </div>
+  </div>
+</div>
+</body></html>
